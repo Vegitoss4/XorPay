@@ -1,0 +1,1239 @@
+
+{
+  "results": [
+    {
+      "columns": [
+        {
+          "name": "TAG_SEQID",
+          "type": "NUMBER"
+        },
+        {
+          "name": "TAG_NAME",
+          "type": "VARCHAR2"
+        },
+        {
+          "name": "TAG_INFO",
+          "type": "VARCHAR2"
+        },
+        {
+          "name": "XPATH",
+          "type": "VARCHAR2"
+        },
+        {
+          "name": "MAX_LENGTH",
+          "type": "NUMBER"
+        },
+        {
+          "name": "CREATED_DATE",
+          "type": "TIMESTAMP"
+        },
+        {
+          "name": "CREATED_BY",
+          "type": "VARCHAR2"
+        },
+        {
+          "name": "UPDATED_DATE",
+          "type": "TIMESTAMP"
+        },
+        {
+          "name": "UPDATED_BY",
+          "type": "VARCHAR2"
+        }
+      ],
+      "items": [
+        {
+          "tag_seqid": 132,
+          "tag_name": "TwnNm",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/IntrmyAgt1\/FinInstnId\/PstlAdr\/TwnNm",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 54,
+          "tag_name": "Strd",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/RmtInf\/Strd",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 55,
+          "tag_name": "RfrdDocInf",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/RmtInf\/Strd\/RfrdDocInf",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 52,
+          "tag_name": "RmtInf",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/RmtInf",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 53,
+          "tag_name": "Ustrd",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/RmtInf\/Ustrd",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 56,
+          "tag_name": "Tp",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/RmtInf\/Strd\/RfrdDocInf\/Tp",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 57,
+          "tag_name": "CdOrPrtry",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/RmtInf\/Strd\/RfrdDocInf\/Tp\/CdOrPrtry",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 58,
+          "tag_name": "Cd",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/RmtInf\/Strd\/RfrdDocInf\/Tp\/CdOrPrtry\/Cd",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 59,
+          "tag_name": "Nb",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/RmtInf\/Strd\/RfrdDocInf\/Nb",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 60,
+          "tag_name": "RltdDt",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/RmtInf\/Strd\/RfrdDocInf\/RltdDt",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 61,
+          "tag_name": "RfrdDocAmt",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/RmtInf\/Strd\/RfrdDocAmt",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 62,
+          "tag_name": "DuePyblAmt",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/RmtInf\/Strd\/RfrdDocAmt\/DuePyblAmt",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 63,
+          "tag_name": "DscntApldAmt",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/RmtInf\/Strd\/RfrdDocAmt\/DscntApldAmt",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 64,
+          "tag_name": "CdtNoteAmt",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/RmtInf\/Strd\/RfrdDocAmt\/CdtNoteAmt",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 65,
+          "tag_name": "TaxAmt",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/RmtInf\/Strd\/RfrdDocAmt\/TaxAmt",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 66,
+          "tag_name": "RmtdAmt",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/RmtInf\/Strd\/RfrdDocAmt\/RmtdAmt",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 67,
+          "tag_name": "CdtrRefInf",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/RmtInf\/Strd\/CdtrRefInf",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 68,
+          "tag_name": "Tp",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/RmtInf\/Strd\/CdtrRefInf\/Tp",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 69,
+          "tag_name": "CdOrPrtry",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/RmtInf\/Strd\/CdtrRefInf\/Tp\/CdOrPrtry",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 70,
+          "tag_name": "Cd",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/RmtInf\/Strd\/CdtrRefInf\/Tp\/CdOrPrtry\/Cd",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 71,
+          "tag_name": "Ref",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/RmtInf\/Strd\/CdtrRefInf\/Ref",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 72,
+          "tag_name": "AddtlRmtInf",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/RmtInf\/Strd\/AddtlRmtInf",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 73,
+          "tag_name": "Id",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/Dbtr\/Id",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 74,
+          "tag_name": "OrgId",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/Dbtr\/Id\/OrgId",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 75,
+          "tag_name": "Othr",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/Dbtr\/Id\/OrgId\/Othr",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 76,
+          "tag_name": "Id",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/Dbtr\/Id\/OrgId\/Othr\/Id",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 77,
+          "tag_name": "Tp",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/CdtrAcct\/Tp",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 78,
+          "tag_name": "Cd",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/CdtrAcct\/Tp\/Cd",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 79,
+          "tag_name": "AdrLine",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/Dbtr\/PstlAdr\/AdrLine",
+          "max_length": 35,
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 80,
+          "tag_name": "BIC",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/DbtrAgt\/FinInstnId\/BIC",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 81,
+          "tag_name": "PstlAdr",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/DbtrAgt\/FinInstnId\/PstlAdr",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 82,
+          "tag_name": "Ctry",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/DbtrAgt\/FinInstnId\/PstlAdr\/Ctry",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 83,
+          "tag_name": "ChrgBr",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/ChrgBr",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 84,
+          "tag_name": "IntrmyAgt1",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/IntrmyAgt1",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 85,
+          "tag_name": "FinInstnId",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/IntrmyAgt1\/FinInstnId",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 86,
+          "tag_name": "BIC",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/IntrmyAgt1\/FinInstnId\/BIC",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 87,
+          "tag_name": "ClrSysMmbId",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/IntrmyAgt1\/FinInstnId\/ClrSysMmbId",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 88,
+          "tag_name": "MmbId",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/IntrmyAgt1\/FinInstnId\/ClrSysMmbId\/MmbId",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 89,
+          "tag_name": "Nm",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/IntrmyAgt1\/FinInstnId\/Nm",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 90,
+          "tag_name": "PstlAdr",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/IntrmyAgt1\/FinInstnId\/PstlAdr",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 91,
+          "tag_name": "AdrLine",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/IntrmyAgt1\/FinInstnId\/PstlAdr\/AdrLine",
+          "max_length": 35,
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 92,
+          "tag_name": "IntrmyAgt1Acct",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/IntrmyAgt1Acct",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 93,
+          "tag_name": "Id",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/IntrmyAgt1Acct\/Id",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 94,
+          "tag_name": "Othr",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/IntrmyAgt1Acct\/Id\/Othr",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 95,
+          "tag_name": "Id",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/IntrmyAgt1Acct\/Id\/Othr\/Id",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 96,
+          "tag_name": "IntrmyAgt2",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/IntrmyAgt2",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 97,
+          "tag_name": "FinInstnId",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/IntrmyAgt2\/FinInstnId",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 98,
+          "tag_name": "BIC",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/IntrmyAgt2\/FinInstnId\/BIC",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 99,
+          "tag_name": "ClrSysMmbId",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/IntrmyAgt2\/FinInstnId\/ClrSysMmbId",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 100,
+          "tag_name": "MmbId",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/IntrmyAgt2\/FinInstnId\/ClrSysMmbId\/MmbId",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 101,
+          "tag_name": "Nm",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/IntrmyAgt2\/FinInstnId\/Nm",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 102,
+          "tag_name": "PstlAdr",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/IntrmyAgt2\/FinInstnId\/PstlAdr",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 103,
+          "tag_name": "AdrLine",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/IntrmyAgt2\/FinInstnId\/PstlAdr\/AdrLine",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 104,
+          "tag_name": "IntrmyAgt2Acct",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/IntrmyAgt2Acct",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 105,
+          "tag_name": "Id",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/IntrmyAgt2Acct\/Id",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 106,
+          "tag_name": "Othr",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/IntrmyAgt2Acct\/Id\/Othr",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 107,
+          "tag_name": "Id",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/IntrmyAgt2Acct\/Id\/Othr\/id",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 108,
+          "tag_name": "BIC",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/CdtrAgt\/FinInstnId\/BIC",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 109,
+          "tag_name": "Nm",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/CdtrAgt\/FinInstnId\/Nm",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 110,
+          "tag_name": "AdrLine",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/CdtrAgt\/FinInstnId\/PstlAdr\/AdrLine",
+          "max_length": 35,
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 111,
+          "tag_name": "AdrLine",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/Cdtr\/PstlAdr\/AdrLine",
+          "max_length": 35,
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 112,
+          "tag_name": "InstrForCdtrAgt",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/InstrForCdtrAgt",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 113,
+          "tag_name": "InstrInf",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/InstrForCdtrAgt\/InstrInf",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 114,
+          "tag_name": "InstrForDbtrAgt",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/InstrForDbtrAgt",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 115,
+          "tag_name": "Ctry",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/IntrmyAgt1\/FinInstnId\/PstlAdr\/Ctry",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 116,
+          "tag_name": "Ctry",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/CdtrAgt\/FinInstnId\/PstlAdr\/Ctry",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 117,
+          "tag_name": "Prtry",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/CdtrAcct\/Tp\/Prtry",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 118,
+          "tag_name": "Cd",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/InstrForCdtrAgt\/Cd",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 1,
+          "tag_name": "Document",
+          "xpath": "\/Document",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 2,
+          "tag_name": "CstmrCdtTrfInitn",
+          "xpath": "\/Document\/CstmrCdtTrfInitn",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 3,
+          "tag_name": "GrpHdr",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/GrpHdr",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 4,
+          "tag_name": "MsgId",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/GrpHdr\/MsgId",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 5,
+          "tag_name": "CreDtTm",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/GrpHdr\/CreDtTm",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 6,
+          "tag_name": "NbOfTxs",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/GrpHdr\/NbOfTxs",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 7,
+          "tag_name": "InitgPty",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/GrpHdr\/InitgPty",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 8,
+          "tag_name": "Nm",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/GrpHdr\/InitgPty\/Nm",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 9,
+          "tag_name": "PmtInf",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 10,
+          "tag_name": "PmtInfId",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/PmtInfId",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 11,
+          "tag_name": "PmtMtd",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/PmtMtd",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 12,
+          "tag_name": "PmtTpInf",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/PmtTpInf",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 13,
+          "tag_name": "SvcLvl",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/PmtTpInf\/SvcLvl",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 14,
+          "tag_name": "Cd",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/PmtTpInf\/SvcLvl\/Cd",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 15,
+          "tag_name": "LclInstrm",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/PmtTpInf\/LclInstrm",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 16,
+          "tag_name": "Cd",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/PmtTpInf\/LclInstrm\/Cd",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 17,
+          "tag_name": "CtgyPurp",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/PmtTpInf\/CtgyPurp",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 18,
+          "tag_name": "Cd",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/PmtTpInf\/CtgyPurp\/Cd",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 19,
+          "tag_name": "Prtry",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/PmtTpInf\/CtgyPurp\/Prtry",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 20,
+          "tag_name": "ReqdExctnDt",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/ReqdExctnDt",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 21,
+          "tag_name": "Dbtr",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/Dbtr",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 22,
+          "tag_name": "Nm",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/Dbtr\/Nm",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 23,
+          "tag_name": "DbtrAcct",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/DbtrAcct",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 24,
+          "tag_name": "Id",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/DbtrAcct\/Id",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 25,
+          "tag_name": "Othr",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/DbtrAcct\/Id\/Othr",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 26,
+          "tag_name": "Id",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/DbtrAcct\/Id\/Othr\/Id",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 27,
+          "tag_name": "DbtrAgt",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/DbtrAgt",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 28,
+          "tag_name": "FinInstnId",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/DbtrAgt\/FinInstnId",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 29,
+          "tag_name": "ClrSysMmbId",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/DbtrAgt\/FinInstnId\/ClrSysMmbId",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 30,
+          "tag_name": "MmbId",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/DbtrAgt\/FinInstnId\/ClrSysMmbId\/MmbId",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 31,
+          "tag_name": "CdtTrfTxInf",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 32,
+          "tag_name": "PmtId",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/PmtId",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 33,
+          "tag_name": "EndToEndId",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/PmtId\/EndToEndId",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 34,
+          "tag_name": "Amt",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/Amt",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 35,
+          "tag_name": "InstdAmt",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/Amt\/InstdAmt",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 36,
+          "tag_name": "CdtrAgt",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/CdtrAgt",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 37,
+          "tag_name": "FinInstnId",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/CdtrAgt\/FinInstnId",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 38,
+          "tag_name": "ClrSysMmbId",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/CdtrAgt\/FinInstnId\/ClrSysMmbId",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 39,
+          "tag_name": "MmbId",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/CdtrAgt\/FinInstnId\/ClrSysMmbId\/MmbId",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 40,
+          "tag_name": "Cdtr",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/Cdtr",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 41,
+          "tag_name": "Nm",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/Cdtr\/Nm",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 42,
+          "tag_name": "CdtrAcct",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/CdtrAcct",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 43,
+          "tag_name": "Id",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/CdtrAcct\/Id",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 44,
+          "tag_name": "Othr",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/CdtrAcct\/Id\/Othr",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 45,
+          "tag_name": "Id",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/CdtrAcct\/Id\/Othr\/Id",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 46,
+          "tag_name": "Nm",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/CdtrAcct\/Nm",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 47,
+          "tag_name": "PstlAdr",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/Cdtr\/PstlAdr",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 48,
+          "tag_name": "PstlAdr",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/CdtrAgt\/FinInstnId\/PstlAdr",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 49,
+          "tag_name": "Ctry",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/Cdtr\/PstlAdr\/Ctry",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 50,
+          "tag_name": "PstlAdr",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/Dbtr\/PstlAdr",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 51,
+          "tag_name": "Ctry",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/Dbtr\/PstlAdr\/Ctry",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 119,
+          "tag_name": "SchmeNm",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/Dbtr\/SchmeNm",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 120,
+          "tag_name": "Tax",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/Tax",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 121,
+          "tag_name": "Cdtr",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/Tax\/Cdtr",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 122,
+          "tag_name": "TaxTp",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/Tax\/Cdtr\/TaxTp",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 123,
+          "tag_name": "Dbtr",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/Tax\/Dbtr",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 124,
+          "tag_name": "TaxId",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/Tax\/Dbtr\/TaxId",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 125,
+          "tag_name": "Rcrd",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/Tax\/Rcrd",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 126,
+          "tag_name": "CtgyDtls",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/Tax\/Rcrd\/CtgyDtls",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 127,
+          "tag_name": "Dt",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/Tax\/Dt",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 128,
+          "tag_name": "TaxAmt",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/Tax\/Rcrd\/TaxAmt",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 129,
+          "tag_name": "Dtls",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/Tax\/Rcrd\/TaxAmt\/Dtls",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 130,
+          "tag_name": "Amt",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/CdtTrfTxInf\/Tax\/Rcrd\/TaxAmt\/Dtls\/Amt",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        },
+        {
+          "tag_seqid": 131,
+          "tag_name": "Cd",
+          "xpath": "\/Document\/CstmrCdtTrfInitn\/PmtInf\/Dbtr\/SchmeNm\/Cd",
+          "created_date": "18-09-20 03:36:36.000000000 AM",
+          "created_by": "ERP TEAM",
+          "updated_date": "18-09-20 03:36:36.000000000 AM",
+          "updated_by": "ERP TEAM"
+        }
+      ]
+    }
+  ]
+}
