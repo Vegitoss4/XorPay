@@ -9,6 +9,11 @@ import { LoginComponent } from './login/login.component';
 import { FormsModule, ReactiveFormsModule }   from '@angular/forms';
 import { AdminComponent } from './admin/admin.component';
 import { AuthService } from './services/auth.service';
+import { HeaderComponent } from './shared/components/header/header.component';
+import { FooterComponent } from './shared/components/footer/footer.component';
+import { LeftNavigationComponent } from './shared/components/left-navigation/left-navigation.component';
+
+
 
 
 @NgModule({
@@ -16,7 +21,10 @@ import { AuthService } from './services/auth.service';
     AppComponent,
     MappingComponent,
     LoginComponent,
-    AdminComponent
+    AdminComponent,
+    HeaderComponent,
+    FooterComponent,
+    LeftNavigationComponent
   ],
   imports: [
     BrowserModule,
