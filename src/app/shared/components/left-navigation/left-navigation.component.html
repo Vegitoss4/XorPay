@@ -1,35 +1,54 @@
-<div class="sidebar-container">
-    <!-- <div class="sidebar-logo">
-      Project Name
-    </div> -->
-    <ul class="sidebar-navigation">
-      <!-- <li class="header">Navigation</li> -->
+<div class="area"><nav class="main-menu">
+  <ul>
       <li>
-        <a href="javascript:void(0);">
-            <i class="material-icons" style="font-size:20px;color:white">desktop_windows</i> Dashboard
-        </a>
-      </li>
-      <li>
-        <a href="javascript:void(0);">
-            <i class="material-icons" style="font-size:20px;color:white">build</i> Mapping
-        </a>
-      </li>
-      <!-- <li class="header">Another Menu</li> -->
-      <li>
+          <a href="javascript:void(0);">
+              <i class="fa fa-home fa-2x"></i>
+              <span class="nav-text">
+                  Home
+              </span>
+          </a>
         
-        <a href="javascript:void(0);">
-            <i class="material-icons" style="font-size:20px;color:white">event_note</i>
-            Scheduler
-        </a>
       </li>
-
-      <li>
-        
-        <a  href="#" onclick="logout()">
-            <i class="material-icons" style="font-size:20px;color:white"> power_settings_new</i>
-            Logout
-        </a>
+      <li class="has-subnav" (click)="redirectToQickLink('dashboard')">
+          <a  routerLink="dashboard" >
+              <i class="fa fa-laptop fa-2x"></i>
+              <span class="nav-text">
+                  Dashboard
+              </span>
+          </a>
+          
       </li>
-    </ul>
-  </div>
+      <li class="has-subnav" (click)="redirectToQickLink('mapping')">
+        <a routerLink="mapping">
+           <i class="fa fa-cogs fa-2x"></i>
+            <span class="nav-text">
+              Mapping
+            </span>
+        </a>
+       
+    </li>
+      <li class="has-subnav" (click)="redirectToQickLink('scheduler')">
+          <a routerLink="scheduler" >
+             <i class="fa fa-calendar fa-2x"></i>
+              <span class="nav-text">
+                Scheduler
+              </span>
+          </a>
+          
+      </li>
+      
   
+  </ul>
+
+  <ul class="logout">
+      <li>
+         <a href="#" onclick="logout()">
+               <i class="fa fa-power-off fa-2x"></i>
+              <span class="nav-text">
+                  Logout
+              </span>
+          </a>
+      </li>  
+  </ul>
+</nav>
+</div>

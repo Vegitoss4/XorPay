@@ -1,6 +1,7 @@
 import { ChangeDetectorRef, Component, OnInit, AfterViewInit } from '@angular/core';
 import { stringify } from 'querystring';
-import {DataService} from '../services/data.service'
+import {DataService} from '../services/data.service';
+
 
 
 @Component({
@@ -13,6 +14,7 @@ export class MappingComponent implements OnInit {
   MappedData: any;
   selectedTargetArray:Array<any> = []
   initialValue: any;
+  
   
   constructor(private dataProvider: DataService,private cdr: ChangeDetectorRef) { 
     // this.MappedData= this.dataProvider.getMappedData();
@@ -37,8 +39,59 @@ export class MappingComponent implements OnInit {
   ngOnInit(): void {
   }
   keyword = 'tag_name';
+  TableName = "name";
  
- 
+ public mockDataTableList = [
+  {
+    "_id": "5fb4b038104512a05e155480",
+    "index": 0,
+    "guid": "6fd3c55a-f795-47fd-be2e-83e7cbb3c868",
+    "isActive": false,
+    name: "SONIQUE"
+  },
+  {
+    "_id": "5fb4b0382e8f7ef20a0c3ed9",
+    "index": 1,
+    "guid": "b6ba0a65-ca97-468e-95b8-e0af6a3f153e",
+    "isActive": false,
+    name: "CYCLONICA"
+  },
+  {
+    "_id": "5fb4b03892e5eed2245abe7d",
+    "index": 2,
+    "guid": "92859c7d-d37d-42af-8f15-5fa840913ac3",
+    "isActive": false,
+    name: "HOMELUX"
+  },
+  {
+    "_id": "5fb4b038e13521adf48b944d",
+    "index": 3,
+    "guid": "05cceeca-1389-46e4-b9fa-4d63fafa434d",
+    "isActive": true,
+    name: "VETRON"
+  },
+  {
+    "_id": "5fb4b038043ca46b1b753998",
+    "index": 4,
+    "guid": "eb75c2fd-b890-43ea-a7a3-2f2690deda43",
+    "isActive": false,
+    name: "WAZZU"
+  },
+  {
+    "_id": "5fb4b038af67699ed354af95",
+    "index": 5,
+    "guid": "2284c96b-a933-4691-abc8-21a73554eca9",
+    "isActive": false,
+    name: "NAMEBOX"
+  },
+  {
+    "_id": "5fb4b03886615f365318706b",
+    "index": 6,
+    "guid": "cee9f15c-367f-43c0-81be-4ed1d0cee15b",
+    "isActive": false,
+    name: "IDEGO"
+  }
+];
  public mockDataSource = [
  {
    "name": "TAG_SEQID",
@@ -404,4 +457,8 @@ this.MappedData = [];
 this.dataProvider.clearMappedData();
 
 }
+public selectTableEvent(e) {
+
+}
+
 }

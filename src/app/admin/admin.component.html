@@ -1,4 +1,19 @@
-<app-header></app-header>
-<!-- <app-mapping></app-mapping> -->
-<app-left-navigation></app-left-navigation>
-<!-- <app-footer></app-footer> -->
+<div class="container-fluid">
+    <div class='row'>
+        <div class="app-header-width " > <app-header></app-header></div>
+        <div class="col-lg-12 containger-height">
+             <div class="buttonpanel-left"><app-left-navigation></app-left-navigation></div> 
+            <div class='buttonpanel-right'><router-outlet></router-outlet></div>
+        </div>
+        <!-- <div class="col-sm-2">
+            <app-button-panel></app-button-panel>
+        </div>
+        <div class="col-sm-10"> <router-outlet></router-outlet>
+        </div> -->
+    </div>
+</div>
+
+<!-- <router-outlet></router-outlet> -->
+
+
+

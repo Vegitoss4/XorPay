@@ -10,11 +10,16 @@ import { AuthService } from 'src/app/services/auth.service';
 export class LeftNavigationComponent implements OnInit {
 
   constructor(private authService: AuthService,private router: Router) { }
-
+  urlbase:string = 'admin/';
   ngOnInit(): void {
   }
 public  logout(){
   this.authService.logout();
   this.router.navigateByUrl('/login');
 }
+
+public redirectToQickLink(quickLink){
+  let url = this.urlbase +quickLink
+   this.router.navigateByUrl(url)
+ }
 }

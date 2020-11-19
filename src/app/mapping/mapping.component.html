@@ -1,8 +1,34 @@
 <div class="container">
     <div class="jumbotron rounded-0">
-<form>
+<form class="form-class">
     <div class="row">
 <div class="col-sm-4">
+    <div class="card table-select">
+        <div class="card-body">
+            <div class="target-Label">
+                <div class="ng-autocomplete">
+                    <ng-autocomplete 
+                      [data]="mockDataTableList"
+                      [searchKeyword]="TableName"
+                      (selected)='selectTableEvent($event)'
+                      (inputChanged)='onChangeSearch($event)'
+                      (inputFocused)='onFocused($event)'
+                      [itemTemplate]="itemTemplate"
+                      [placeHolder] = "'Please Select Source Table'"
+                      [notFoundTemplate]="notFoundTemplate">                                 
+                    </ng-autocomplete>
+                     
+                    <ng-template #itemTemplate let-item>
+                    <a [innerHTML]="mockDataTableList.name"></a>
+                    </ng-template>
+                     
+                    <ng-template #notFoundTemplate let-notFound>
+                    <div [innerHTML]="notFound"></div>
+                    </ng-template>
+                    </div>
+            </div>
+        </div>
+      </div>
     <div class="card">
         <div class="card-header"><h3>Source</h3></div>
         <div class="card-body">
@@ -15,6 +41,32 @@
       </div>
 </div>
 <div class="col-sm-4">
+    <div class="card table-select">
+        <div class="card-body">
+            <div class="target-Label">
+                <div class="ng-autocomplete">
+                    <ng-autocomplete 
+                      [data]="mockDataTableList"
+                      [searchKeyword]="TableName"
+                      (selected)='selectTableEvent($event)'
+                      (inputChanged)='onChangeSearch($event)'
+                      (inputFocused)='onFocused($event)'
+                      [placeHolder] = "'Please Select Target Table'"
+                      [itemTemplate]="itemTemplate"
+                      [notFoundTemplate]="notFoundTemplate">                                 
+                    </ng-autocomplete>
+                     
+                    <ng-template #itemTemplate let-item>
+                    <a [innerHTML]="item.name"></a>
+                    </ng-template>
+                     
+                    <ng-template #notFoundTemplate let-notFound>
+                    <div [innerHTML]="notFound"></div>
+                    </ng-template>
+                    </div>
+            </div>
+        </div>
+      </div>
     <div class="card">
         <div class="card-header"><h3>Target</h3></div>
         <div class="card-body">
@@ -45,7 +97,8 @@
       </div>
 </div>
 <div class="col-sm-4">
-    <div class="card">
+ 
+    <div class="card mapping-card">
         <div class="card-header"><h3>Mapping</h3></div>
         <div class="card-body">
             <div class="target-Label">
