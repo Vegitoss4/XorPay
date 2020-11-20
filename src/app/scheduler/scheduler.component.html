@@ -21,10 +21,10 @@
                             <h3>Parameters</h3>
                         </div>
                         <div class="card-body">
-                            <button type="button" class="btn btn-primary btn-lg btn-block"  (click)="open(mymodal)">Enter Parameters</button>
-                            
+                            <button type="button" class="btn btn-primary btn-lg btn-block" (click)="openModalDialog()">Enter Parameters</button>
                         </div>
                     </div>
+       
                 </div>
                 <div class="col-sm-4">
 
@@ -42,39 +42,65 @@
                         </div>
                     </div>
                 </div>
+                <div class="backdrop" [ngStyle]="{'display':display}"></div>
+                <!-- modal -->
+                <div class="modal" tabindex="-1" role="dialog"  [ngStyle]="{'display':display}">
+                   <!-- modal-dialog -->
+                   <div class="modal-dialog" role="document">
+                      <!-- modal-content -->
+                      <div class="modal-content">
+                         <!-- modal-header -->
+                         <div class="modal-header">
+                            <button type="button" class="close" aria-label="Close"(click)="closeModalDialog()"><span aria-hidden="true">&times;</span></button>
+                            <!-- <h4 class="modal-title">Login</h4> -->
+                         </div>
+                         <!-- modal-body -->
+                         <div class="modal-body">
+                            <form>
+                                <div class="form-group row">
+                                  <label for="param" class="col-sm-2 col-form-label">Param1</label>
+                                  <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="param" placeholder="Please Enter Param">
+                                  </div>
+                                </div>
+                                <div class="form-group row">
+                                  <label for="param" class="col-sm-2 col-form-label">Param2</label>
+                                  <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="param" placeholder="Please Enter Param">
+                                  </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="param" class="col-sm-2 col-form-label">Param3</label>
+                                    <div class="col-sm-10">
+                                      <input type="text" class="form-control" id="param" placeholder="Please Enter Param">
+                                    </div>
+                                  </div>
+                                  <div class="form-group row">
+                                    <label for="param" class="col-sm-2 col-form-label">Param4</label>
+                                    <div class="col-sm-10">
+                                      <input type="text" class="form-control" id="param" placeholder="Please Enter Param">
+                                    </div>
+                                  </div>
+                                
+                                <div class="form-group row sumit-param">
+                                  <div class="col-sm-10">
+                                    <button type="submit" class="btn btn-primary">submit</button>
+                                  </div>
+                                </div>
+                              </form>
+                         </div>
+                         <!-- modal-footer -->
+                         <!-- <div class="modal-footer">
+                            <button type="button" class="btn btn-default" (click)="closeModalDialog()" >Close</button>
+                         </div> -->
+                      </div>
+                   </div>
+                </div>
             </div>
 
 
         </form>
     </div>
-    <ng-template #mymodal let-modal>
-        <div class="modal-header">
-          <h4 class="modal-title" id="modal-basic-title">PARAMETERS</h4>
-          <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
-            <span aria-hidden="true">×</span>
-          </button>
-        </div>
-        <div class="modal-body">
-            <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
-                <input type = "text" name = "param1" placeholder = "Your full name" formControlName="fullName" >
-                <br/>
-                
-                <input type = "text" name = "param2" placeholder = "Your email" formControlName="param2" >
-                <br/>
-
-                <input type = "text" name = "param3" placeholder = "Your email" formControlName="param3" >
-                <br/>
-
-                <input type = "text" name = "param4" placeholder = "Your email" formControlName="param4" >
-                <br/>
-                
-                
-                <input type = "submit" value = "Submit">
-              </form>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-outline-dark" (click)="modal.close('Save click')">Ok</button>
-        </div>
-      </ng-template>
+ 
       
 </div>

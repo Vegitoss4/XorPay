@@ -7,6 +7,7 @@ import { FormsModule, ReactiveFormsModule  } from '@angular/forms';
 
 
 
+
 @NgModule({
   declarations: [SchedulerComponent],
   imports: [
@@ -17,7 +18,7 @@ import { FormsModule, ReactiveFormsModule  } from '@angular/forms';
     ReactiveFormsModule
   ],
   entryComponents: [
-    SchedulerComponent
+    
   ]
 })
 export class SchedulerModule { }

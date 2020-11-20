@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import {NgbModal, ModalDismissReasons,NgbActiveModal} from '@ng-bootstrap/ng-bootstrap';
 import { FormGroup, FormBuilder } from  '@angular/forms';
 
 @Component({
@@ -8,17 +7,13 @@ import { FormGroup, FormBuilder } from  '@angular/forms';
   styleUrls: ['./scheduler.component.less']
 })
 export class SchedulerComponent implements OnInit {
-  closeResult: string;
   paramForm: FormGroup;
-  constructor(private modalService: NgbModal,private formBuilder: FormBuilder) { }
+  display='none';
+  constructor(private formBuilder: FormBuilder) { }
 
   ngOnInit(): void {
   }
-  open(content) {
-    this.modalService.open(content, {centered: true,ariaLabelledBy: 'modal-basic-title'}).result.then((result) => {
-      this.closeResult = `Closed with: ${result}`;
-    });
-  }
+// --------------------------------------------------------Reactive-Form-------------------------------------------------------------------
   createContactForm(){
     this.paramForm = this.formBuilder.group({
       param1: [''],  
@@ -31,5 +26,17 @@ export class SchedulerComponent implements OnInit {
   onSubmit() {
       console.log('Your form data : ', this.paramForm.value );
   }
+// --------------------------------------------------------Reactive-Form-------------------------------------------------------------------
+
+// -----------------------------Modal--------------------------------------------
+openModalDialog(){
+  this.display='block'; //Set block css
+}
+
+closeModalDialog(){
+this.display='none'; //set none css after close dialog
+}
+// -----------------------------Modal--------------------------------------------
+
 
 }
