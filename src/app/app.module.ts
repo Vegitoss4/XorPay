@@ -9,9 +9,8 @@ import { DataService } from './services/data.service';
 import { FormsModule, ReactiveFormsModule }   from '@angular/forms';
 
 import { AuthService } from './services/auth.service';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-
-
+import { MappingService } from './mapping/mapping.service';
+import {HttpClientModule} from '@angular/common/http'
 
 
 
@@ -19,7 +18,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
@@ -27,9 +26,9 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     AutocompleteLibModule,
     FormsModule,
     ReactiveFormsModule,
-    NgbModule
+    HttpClientModule
   ],
-  providers: [DataService,AuthService],
+  providers: [DataService,AuthService,MappingService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

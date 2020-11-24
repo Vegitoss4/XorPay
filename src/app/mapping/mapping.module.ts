@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms'
 import {AutocompleteLibModule} from 'angular-ng-autocomplete';
-import { BrowserModule } from '@angular/platform-browser';
+
 import { MappingRoutingModule } from './mapping-routing.module';
 import { MappingComponent } from './mapping.component'
 
@@ -13,8 +13,8 @@ import { MappingComponent } from './mapping.component'
     CommonModule,
     FormsModule,
     AutocompleteLibModule,
-    MappingRoutingModule
-  
+    MappingRoutingModule,
+    ReactiveFormsModule
   ]
 })
 export class MappingModule { }

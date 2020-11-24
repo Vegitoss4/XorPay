@@ -1,6 +1,9 @@
 <div class="container">
+  
     <div class="jumbotron rounded-0">
+      <h2 class="badge badge-light">SCHEDULER</h2>
         <form class="form-class">
+      
             <div class="row">
                 <div class="col-sm-4">
                     <div class="card">
@@ -56,34 +59,40 @@
                          </div>
                          <!-- modal-body -->
                          <div class="modal-body">
-                            <form>
+                            <form [formGroup]="paramForm" (submit)="onSubmit()"> 
                                 <div class="form-group row">
                                   <label for="param" class="col-sm-2 col-form-label">Param1</label>
                                   <div class="col-sm-10">
-                                    <input type="text" class="form-control" id="param" placeholder="Please Enter Param">
+                                    <input type="text" class="form-control" formControlName="param1" id="param1" placeholder="Please Enter Param">
                                   </div>
                                 </div>
                                 <div class="form-group row">
                                   <label for="param" class="col-sm-2 col-form-label">Param2</label>
                                   <div class="col-sm-10">
-                                    <input type="text" class="form-control" id="param" placeholder="Please Enter Param">
+                                    <input type="text" class="form-control" formControlName="param2" id="param2" placeholder="Please Enter Param">
                                   </div>
                                 </div>
                                 <div class="form-group row">
                                     <label for="param" class="col-sm-2 col-form-label">Param3</label>
                                     <div class="col-sm-10">
-                                      <input type="text" class="form-control" id="param" placeholder="Please Enter Param">
+                                      <input type="text" class="form-control" formControlName="param3" id="param3" placeholder="Please Enter Param">
                                     </div>
                                   </div>
                                   <div class="form-group row">
                                     <label for="param" class="col-sm-2 col-form-label">Param4</label>
                                     <div class="col-sm-10">
-                                      <input type="text" class="form-control" id="param" placeholder="Please Enter Param">
+                                      <input type="text" class="form-control" formControlName="param4" id="param4" placeholder="Please Enter Param">
                                     </div>
                                   </div>
                                 
                                 <div class="form-group row sumit-param">
-                                  <div class="col-sm-10">
+                                  <div class="col-sm-8">
+                              
+                                  </div>
+                                  <div class="col-sm-2s">
+                                    <button type="button" class="btn btn-danger" (click)="clearModalForm()">clear</button>
+                                  </div>
+                                  <div class="col-sm-2">
                                     <button type="submit" class="btn btn-primary">submit</button>
                                   </div>
                                 </div>

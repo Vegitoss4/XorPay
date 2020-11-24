@@ -1,6 +1,7 @@
 import { ChangeDetectorRef, Component, OnInit, AfterViewInit } from '@angular/core';
 import { stringify } from 'querystring';
 import {DataService} from '../services/data.service';
+import { MappingService } from './mapping.service'
 
 
 
@@ -16,7 +17,8 @@ export class MappingComponent implements OnInit {
   initialValue: any;
   
   
-  constructor(private dataProvider: DataService,private cdr: ChangeDetectorRef) { 
+  constructor(private dataProvider: DataService,private cdr: ChangeDetectorRef,
+     private mappingser: MappingService) { 
     // this.MappedData= this.dataProvider.getMappedData();
   //  this.MappedData = [
   //   {SourceName: "TAG_SEQID", TargetName: "TwnNm"},
@@ -24,6 +26,10 @@ export class MappingComponent implements OnInit {
   //  ]
  
    
+  }
+  ngOnInit(): void{
+    //this.getAllSourceTables();
+    this.getAllTargetTables();
   }
   ngAfterViewInit() {
     var intialKeys = ["InitialVal"]
@@ -36,8 +42,7 @@ export class MappingComponent implements OnInit {
     this.cdr.detectChanges();
   }
 
-  ngOnInit(): void {
-  }
+ 
   keyword = 'tag_name';
   TableName = "name";
  
@@ -461,4 +466,16 @@ public selectTableEvent(e) {
 
 }
 
+getAllTargetTables(){
+  this.mappingser.getTargetTable().subscribe((data)=>{
+    console.log('ttttttttttttt', data)
+  })
+}
+
+getAllSourceTables(){
+  this.mappingser.getSourceTable()
+  .subscribe((data)=>{
+    console.log('ssssssssssssssss', data);
+  })
+}
 }

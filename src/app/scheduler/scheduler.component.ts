@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder } from  '@angular/forms';
+import { SchedulerService } from './scheduler.service';
 
 @Component({
   selector: 'app-scheduler',
@@ -9,7 +10,10 @@ import { FormGroup, FormBuilder } from  '@angular/forms';
 export class SchedulerComponent implements OnInit {
   paramForm: FormGroup;
   display='none';
-  constructor(private formBuilder: FormBuilder) { }
+  constructor(private formBuilder: FormBuilder,
+    private schedulerService:SchedulerService) { 
+    this.createContactForm();
+  }
 
   ngOnInit(): void {
   }
@@ -25,6 +29,9 @@ export class SchedulerComponent implements OnInit {
 
   onSubmit() {
       console.log('Your form data : ', this.paramForm.value );
+      this.schedulerService.addParams(this.paramForm.value).subscribe(data => {
+        console.log(data);
+      })  
   }
 // --------------------------------------------------------Reactive-Form-------------------------------------------------------------------
 
@@ -36,6 +43,12 @@ openModalDialog(){
 closeModalDialog(){
 this.display='none'; //set none css after close dialog
 }
+
+clearModalForm() {
+  this.paramForm.setValue({param1: '', param2: '',param3: '', param4: ''});
+  this.paramForm.reset();
+}
+
 // -----------------------------Modal--------------------------------------------
 
 

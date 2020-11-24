@@ -3,8 +3,8 @@ import { CommonModule } from '@angular/common';
 import { SchedulerRoutingModule } from './scheduler-routing.module';
 import { SchedulerComponent } from './scheduler.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { FormsModule, ReactiveFormsModule  } from '@angular/forms';
-
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -14,11 +14,9 @@ import { FormsModule, ReactiveFormsModule  } from '@angular/forms';
     CommonModule,
     SchedulerRoutingModule,
     NgbModule,
-    FormsModule, 
+    FormsModule,
+    HttpClientModule,
     ReactiveFormsModule
-  ],
-  entryComponents: [
-    
   ]
 })
 export class SchedulerModule { }

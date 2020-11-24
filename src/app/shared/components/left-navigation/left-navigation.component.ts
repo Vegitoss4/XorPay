@@ -11,6 +11,7 @@ export class LeftNavigationComponent implements OnInit {
 
   constructor(private authService: AuthService,private router: Router) { }
   urlbase:string = 'admin/';
+  panelToggle:boolean = false;
   ngOnInit(): void {
   }
 public  logout(){
@@ -22,4 +23,10 @@ public redirectToQickLink(quickLink){
   let url = this.urlbase +quickLink
    this.router.navigateByUrl(url)
  }
+
+
+
+//  public leftPanelToggle() {
+//    this.panelToggle = !this.panelToggle;
+//  }
 }
